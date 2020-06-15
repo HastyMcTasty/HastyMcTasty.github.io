@@ -1,0 +1,136 @@
+
+
+@font-face{
+    font-family: lemon;
+    src: url(./fonts/lemon.otf);
+}
+
+body{
+    font-family:lemon;
+
+    border-radius:1px;
+
+    background-image: linear-gradient( +135deg, #f2f2f2, #a3c2c2);
+    color:black
+    width:100%;
+    height:100%;
+    margin:0;
+    padding:0;
+}
+
+.nav{
+    display:flex;
+    justify-content:space-between;
+    width:auto;
+    padding:0;
+    background:;
+    border:;
+
+}
+
+.box3 ul li{
+    list-style:none;
+}
+
+.box3 a{
+    text-decoration:none;
+    color:;
+}
+
+
+.box3{
+    flex:1;
+    order:3;
+    text-align:center;
+    margin-right:10px;
+    margin: 80px 0;
+}
+
+.box3 ul{
+    padding:0;
+    margin-top:0;
+    color:black;
+    margin-top:25px;
+
+}
+
+.box3 li{
+    padding-bottom:10px;
+    display:inline;
+    padding: 0 3px;
+
+
+}
+
+.box3 li a{
+    color:black;
+
+}
+
+.box3 li a:hover{
+    text-decoration:underline;
+    color:;
+}
+
+.box3 li:nth-child(1){
+    font-size:20px;
+    border-right:1px solid black;
+    padding-right:10px;
+}
+
+.impre-dat{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+}
+
+footer p{
+    padding-left:9px;
+
+}
+
+footer{
+    margin-top:50px;
+}
+
+footer .im-box1 p{
+    border-right:1px solid black;
+    padding-right:9px;
+}
+
+footer a{
+    text-decoration:none;
+    color:black;
+}
+
+footer a:hover{
+    text-decoration:underline;
+}
+
+.contact{
+    text-align:center;
+    margin-top:50px;
+}
+
+.contact a{
+    color:black;
+    text-decoration:underline;
+
+}
+
+.contact a:hover{
+    color: #008B8B;
+}
+
+.contact{
+    margin: 100px 0;
+}
+
+.daten h2{
+    text-align:center;
+    margin:50px 0;
+}
+
+.daten_text {
+    margin:0 15%;
+}
