@@ -6,7 +6,7 @@
 
 @font-face{
     font-family:lemon;
-    src: url(lemon.otf);
+    src: url(/lemon.otf);
 }
 
 body{
@@ -25,10 +25,6 @@ body{
     justify-content:space-between;
     width:auto;
     padding:0;
-    background:;
-    border:;
-
-
 }
 
 .box3 ul li{
@@ -37,7 +33,6 @@ body{
 
 .box3 a{
     text-decoration:none;
-    color:;
 }
 
 
@@ -72,7 +67,7 @@ body{
 
 .box3 li a:hover{
     text-decoration:underline;
-    color:;
+    
 }
 
 .box3 li:nth-child(1){
@@ -91,7 +86,7 @@ body{
     grid-gap:0;
     margin-left:20%;
     margin-right:20%;
-    background:;
+    
 
 
 }
